@@ -1,0 +1,37 @@
+/******** Start default theme****************/
+:root {
+  --main-color: rgb(216, 53, 188);
+}
+
+/* Active Link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.carousel-indicators li.active,
+.option-box .check-gear {
+  background-color: var(--main-color);
+}
+
+/* navbar link */
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonial span,
+.footer .copyright span,
+.footer h3 {
+  color: var(--main-color);
+}
+.dropdown-menu {
+  border-top: 3px solid var(--main-color);
+}
+.dropdown-menu .divider {
+  background-color: #b1129c;
+} 
+.option-box .color-option,
+.testimonial .carousel-indicators li.active  {
+  border: 3px solid var(--main-color);
+}
+.footer .social-list li img {
+  border: 1px solid var(--main-colo);
+} 
